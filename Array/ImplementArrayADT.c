@@ -36,9 +36,11 @@ int main()
     struct myArray marks;
 
     createArray(&marks, 10, 4);
+
     printf("Enter Elements:\n");
     setArray(&marks);
     printf("\nArray values:\n");
     getArray(&marks);
+
     return 0;
 }
